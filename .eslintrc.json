@@ -8,7 +8,8 @@
         "airbnb",
         "plugin:jsx-a11y/recommended",
         "plugin:react-hooks/recommended",
-        "prettier"
+        "prettier",
+        "plugin:react/recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -24,6 +25,9 @@
     ],
     "rules": {
         "prettier/prettier": "error",
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "no-console":"off",
+        "react/no-did-mount-set-state": 0,
+        "no-shadow": "off"
     }
 }
